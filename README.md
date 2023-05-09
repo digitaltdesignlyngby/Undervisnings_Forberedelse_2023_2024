@@ -1,17 +1,19 @@
 # ddu_23_24
-planlægning af kommende undervisning på teknikfaget ddu
+
+Planlægning af kommende undervisning på teknikfaget ddu
 
 Nøgletemaer:
-Prototyper(5) : design, udvikling, kravspec., innovativ
-Projektstyring(1) : styringsværktøjer, samarbejde, roller, ansvar, møder
-Interaktionsdesign (4) : interface, brugervenlighed, dig-kommunikation, designprincipper, multimedier, gui
-Produkttest(6) : brugertest, test-analyse
-IT-værktøjer(3) : 2d, 3d, digitale standarder
-Automatisering(7) : auto. med data og AI, optimering af arbejdsprocesser, styring af kommunikation og visuelt...
-Datasikkerhed(2) : beskyttelse af data, kryptering, rettigheder
+- Prototyper(5) : design, udvikling, kravspec., innovativ
+- Projektstyring(1) : styringsværktøjer, samarbejde, roller, ansvar, møder
+- Interaktionsdesign (4) : interface, brugervenlighed, dig-kommunikation, designprincipper, multimedier, gui
+- Produkttest(6) : brugertest, test-analyse
+- IT-værktøjer(3) : 2d, 3d, digitale standarder
+- Automatisering(7) : auto. med data og AI, optimering af arbejdsprocesser, styring af kommunikation og visuelt...
+- Datasikkerhed(2) : beskyttelse af data, kryptering, rettigheder
+
 Valgtemaer:
-Spiludvikling(12) :
-Datamodeller(8) :
+- Spiludvikling(12) :
+- Datamodeller(8) :
 
 | **uge** | **timer** |   | **emne 1**                      | **emne 2**            | note                                 |
 |---------|-----------|---|---------------------------------|-----------------------|--------------------------------------|
