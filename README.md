@@ -16,6 +16,11 @@ Valgtemaer:
 - Datamodeller(8) :
 
 
+Godot videoer jeg har lavet (ajrp):
+- Godot database 1/2 : https://youtu.be/0WiEkQu0DYE 
+- Godot database 2/2 : https://youtu.be/lK5rFEQatAA
+- Godot med Github : https://youtu.be/2abX2lDjOZQ
+
 
 | **uge** | **timer** |   | **emne 1**                      | **emne 2**            | note                                 |
 |---------|-----------|---|---------------------------------|-----------------------|--------------------------------------|
