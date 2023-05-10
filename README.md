@@ -22,6 +22,8 @@ Godot videoer jeg har lavet (ajrp):
 - Godot med Github : https://youtu.be/2abX2lDjOZQ
 
 
+
+
 | **uge** | **timer** |   | **emne 1**                      | **emne 2**            | note                                 |
 |---------|-----------|---|---------------------------------|-----------------------|--------------------------------------|
 | 32      | 4         |   | intro                           | godot 1               | nøgletemaer                          |
