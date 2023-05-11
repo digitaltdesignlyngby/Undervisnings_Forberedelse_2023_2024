@@ -1,6 +1,19 @@
 # ddu_23_24
 
-Planlægning af kommende undervisning på teknikfaget ddu
+
+## Database med elephantSQL og Godot - her videoer jeg har lavet (ajrp):
+- Godot database 1/2 : https://youtu.be/0WiEkQu0DYE 
+- Godot database 2/2 : https://youtu.be/lK5rFEQatAA
+- Godot med Github : https://youtu.be/2abX2lDjOZQ
+
+## Lav en platformer
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+# Planlægning af kommende undervisning på teknikfaget ddu
 
 Nøgletemaer:
 - Prototyper(5) : design, udvikling, kravspec., innovativ
@@ -15,11 +28,6 @@ Valgtemaer:
 - Spiludvikling(12) :
 - Datamodeller(8) :
 
-
-Godot videoer jeg har lavet (ajrp):
-- Godot database 1/2 : https://youtu.be/0WiEkQu0DYE 
-- Godot database 2/2 : https://youtu.be/lK5rFEQatAA
-- Godot med Github : https://youtu.be/2abX2lDjOZQ
 
 
 
