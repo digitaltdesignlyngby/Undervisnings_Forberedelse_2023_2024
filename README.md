@@ -2,14 +2,19 @@
 
 
 ## Database med elephantSQL og Godot 
+
 Programmet:
 - https://github.com/digitaltdesignlyngby/GodotDatabaseProjekt  
+
 Her videoer jeg har lavet (ajrp):
 - Godot database 1/2 : https://youtu.be/0WiEkQu0DYE 
 - Godot database 2/2 : https://youtu.be/lK5rFEQatAA
 - Godot med Github : https://youtu.be/2abX2lDjOZQ
 
+
+
 ## Lav en platformer i Godot
+
 Her videoer jeg har set ...
 - Andrew Hoffman platformer tutorial : https://www.youtube.com/watch?v=dpBcidxfJSg&list=PLP6PvXLevG9JddCjycHv8Lt3nRerIV7Go&index=2
 - Andrew Hoffman om tilmap : https://www.youtube.com/watch?v=d5IyWAyk3T8
