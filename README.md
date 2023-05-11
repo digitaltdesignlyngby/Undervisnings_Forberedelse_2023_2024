@@ -19,6 +19,7 @@ Programmet:
 - https://github.com/digitaltdesignlyngby/GodotPlatformer
 
 Her videoer jeg har set ...
+- Video kanal : https://www.youtube.com/playlist?list=PLP6PvXLevG9JddCjycHv8Lt3nRerIV7Go
 - Andrew Hoffman platformer tutorial : https://www.youtube.com/watch?v=dpBcidxfJSg&list=PLP6PvXLevG9JddCjycHv8Lt3nRerIV7Go&index=2
 - Andrew Hoffman om tilmap : https://www.youtube.com/watch?v=d5IyWAyk3T8
 
