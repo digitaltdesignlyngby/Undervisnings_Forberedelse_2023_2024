@@ -1,4 +1,4 @@
-# ddu_23_24
+# Planlægning af digital design og udvikling 2023/2024
 
 
 ## Database med elephantSQL og Godot 
