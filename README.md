@@ -41,6 +41,20 @@ CameraSystem
 4. Selve tilstanden huskes i den globale boolean variabel "cameraPlayer" i singletonen "globals.gd"...
 I settings "project.godot" - sættes autoload til at autoloade "globals.gd"
 
+
+## VIGTIGT FOR EXPORT AF SPIL TIL FEKS. HTML5:
+
+EDITOR BUILD
+```
+		var b = bullet.instance(PackedScene.GEN_EDIT_STATE_INSTANCE)
+```
+
+BYGGET TIL HTML5 dvs. EXPORTERET OG IKKE BYGGET I EDITOR:
+```
+		var b = bullet.instance(PackedScene.GEN_EDIT_STATE_INSTANCE)
+```
+
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 # Planlægning af kommende undervisning på teknikfaget ddu
