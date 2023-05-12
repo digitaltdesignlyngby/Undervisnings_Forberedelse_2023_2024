@@ -65,4 +65,8 @@ BYGGET TIL HTML5 dvs. EXPORTERET OG IKKE BYGGET I EDITOR:
 3. I "Enemy.gd" overskrives funktionen "get_input(delta)" og istedet for at styre med knapperne - laver vi nu random tal der styre "hop" og "bevægelse"
 4. Der tilføjes en ny sprite der placeres ovenpå den anden ... et par solbriller... så man kan se forskel på spilleren og fjenderne
 
+## Input for web!
+Forsøg på at tilføje styring af input "InputEventTouch" til touch-screen sevices...
+Virker ikke helt med InputEventScreenTouch da det kun virker på selve trykket,...
+
 -----------------------------------------------------------------------------------------------------------------------------
