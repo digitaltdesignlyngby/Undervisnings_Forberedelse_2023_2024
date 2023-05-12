@@ -24,6 +24,13 @@ Her videoer jeg har set ...
 - Andrew Hoffman om tilmap : https://www.youtube.com/watch?v=d5IyWAyk3T8
 
 
+## Tilføjer bullets til platformer (projekt ovenfor)
+Bullets
+1. Tilføjer ny Area2D node - der består af en sprite node og en collision2D node
+2. Laver TilesMap til group: "MapGroup" og laver Player til group : "PlayerGroup"
+3. Tilføjer script til Bullet med signal på collsion der opfanges af den selv og laver "queue_free" på begge objekter hvis de ikke er i group map eller player
+4. Ændrer script på player så den kan lave instanser af Bullet, der positioneres samme sted som Player med tilføjes til parent som er Level1...
+
 
 
 -----------------------------------------------------------------------------------------------------------------------------
