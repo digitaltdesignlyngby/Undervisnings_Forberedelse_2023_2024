@@ -51,7 +51,7 @@ EDITOR BUILD
 
 BYGGET TIL HTML5 dvs. EXPORTERET OG IKKE BYGGET I EDITOR:
 ```
-		var b = bullet.instance(PackedScene.GEN_EDIT_STATE_INSTANCE)
+		var b = bullet.instance()
 ```
 
 
