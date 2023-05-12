@@ -31,7 +31,15 @@ Bullets
 3. Tilføjer script til Bullet med signal på collsion der opfanges af den selv og laver "queue_free" på begge objekter hvis de ikke er i group map eller player
 4. Ændrer script på player så den kan lave instanser af Bullet, der positioneres samme sted som Player med tilføjes til parent som er Level1...
 
+## Camera fra to vinkler
 
+CameraSystem
+Ændrer camera view ..
+1. Laver 2 forskellige kamera - et på Level og et andet på Player
+2. (GUI.tscn) Laver 2 forskellige instanser af GUI scener - et på level og et på player
+3. (GUI.gd)Når man trykker på GUI i level skifter kamera til player og den ene GUI bliver usynlig og den anden synlig
+4. Selve tilstanden huskes i den globale boolean variabel "cameraPlayer" i singletonen "globals.gd"...
+I settings "project.godot" - sættes autoload til at autoloade "globals.gd"
 
 -----------------------------------------------------------------------------------------------------------------------------
 
