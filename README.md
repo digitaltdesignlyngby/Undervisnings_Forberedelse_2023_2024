@@ -54,6 +54,11 @@ BYGGET TIL HTML5 dvs. EXPORTERET OG IKKE BYGGET I EDITOR:
 		var b = bullet.instance()
 ```
 
+Enemies NPC
+1. Laver en scene der nedarver fra Player ved at oprette en ny scene - og klikke på "instance child scene" ved siden af "+" (new scene)
+2. Derefter højreklikke på scenen og trykke "exetend script" - det nye script hedder "Enemy.gd"
+3. I "Enemy.gd" overskrives funktionen "get_input(delta)" og istedet for at styre med knapperne - laver vi nu random tal der styre "hop" og "bevægelse"
+4. Der tilføjes en ny sprite der placeres ovenpå den anden ... et par solbriller... så man kan se forskel på spilleren og fjenderne
 
 -----------------------------------------------------------------------------------------------------------------------------
 
