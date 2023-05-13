@@ -70,3 +70,8 @@ Forsøg på at tilføje styring af input "InputEventTouch" til touch-screen sevi
 Virker ikke helt med InputEventScreenTouch da det kun virker på selve trykket,...
 
 -----------------------------------------------------------------------------------------------------------------------------
+
+GUI - nu med controls til at styre spilleren
+1. Anvendelse af globals: up, left, right og shoot sat af knapperne
+2. Player objektet tjekker om nogle af værdierne er sande og reagerer
+
