@@ -78,23 +78,43 @@ GUI - nu med controls til at styre spilleren
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Her noget multiple touch customizering...
-Hvis man tilføjer følgende script kan man lave multipletouch knapper:
+multi touch 
 
+Et nyt script delt imellem alle knapper muliggør multi-touch...
+Der laves customized signaler i koden
+Disse signaler skal tilsluttes det script der styrer player
+I vores tilfælde er der et globalt script der sætter spillerens tilstande
+herefter lytter playeren efter sin tilstand i det globale svript
+
+Script delt imellem touch-knapper:
 ```
+extends Button
+
+signal _touch_down
+signal _touch_up
+
+var index ## til at holde øje med hvilket klik/touch der hører til knappen!
+
+func _ready():
+	pass # Replace with function body.
+
+
 
 func _input(event):
 	if event is InputEventScreenTouch:
-		var xmin	=	rect_global_position.x
-		var xmax	=	rect_global_position.x + rect_size.x
-		var ymin	=	rect_global_position.y
-		var ymax	=	rect_global_position.y + rect_size.y
+		var xmin	=	rect_position.x
+		var xmax	=	rect_position.x + rect_size.x
+		var ymin	=	rect_position.y
+		var ymax	=	rect_position.y + rect_size.y
 		var x		=	event.position.x
 		var y		=	event.position.y
 		if x < xmax && x > xmin && y < ymax && y > ymin:
-			pressed = event.pressed
-			print(self,pressed)
-			#print("Touch event: index "+str(event.index)+" pressed: "+str(event.pressed)+" position "+str(event.position))
-	pass
+			if event.pressed  : 	## knappen klikkes og index huskes
+				emit_signal("_touch_down")
+				index = event.index
+			if !event.pressed && event.index == index: ## hvis knappen slippes med dette index
+				emit_signal("_touch_up")
+			pass
+
 ```
 
