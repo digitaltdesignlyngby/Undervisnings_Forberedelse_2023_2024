@@ -81,7 +81,8 @@ GUI - nu med controls til at styre spilleren
 Her noget multiple touch customizering...
 Hvis man tilføjer følgende script kan man lave multipletouch knapper:
 
-´´´
+```
+
 func _input(event):
 	if event is InputEventScreenTouch:
 		var xmin	=	rect_global_position.x
@@ -95,5 +96,5 @@ func _input(event):
 			print(self,pressed)
 			#print("Touch event: index "+str(event.index)+" pressed: "+str(event.pressed)+" position "+str(event.position))
 	pass
-´´´
+```
 
