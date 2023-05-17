@@ -75,3 +75,25 @@ GUI - nu med controls til at styre spilleren
 1. Anvendelse af globals: up, left, right og shoot sat af knapperne
 2. Player objektet tjekker om nogle af værdierne er sande og reagerer
 
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Her noget multiple touch customizering...
+Hvis man tilføjer følgende script kan man lave multipletouch knapper:
+
+´´´
+func _input(event):
+	if event is InputEventScreenTouch:
+		var xmin	=	rect_global_position.x
+		var xmax	=	rect_global_position.x + rect_size.x
+		var ymin	=	rect_global_position.y
+		var ymax	=	rect_global_position.y + rect_size.y
+		var x		=	event.position.x
+		var y		=	event.position.y
+		if x < xmax && x > xmin && y < ymax && y > ymin:
+			pressed = event.pressed
+			print(self,pressed)
+			#print("Touch event: index "+str(event.index)+" pressed: "+str(event.pressed)+" position "+str(event.position))
+	pass
+´´´
+
