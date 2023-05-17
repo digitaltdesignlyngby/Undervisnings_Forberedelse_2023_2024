@@ -78,7 +78,7 @@ GUI - nu med controls til at styre spilleren
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-multi touch 
+## multi touch 
 
 Et nyt script delt imellem alle knapper muliggør multi-touch...
 Der laves customized signaler i koden
@@ -118,3 +118,10 @@ func _input(event):
 
 ```
 
+## VIGTIGT!!!!!!!!!!!!
+Viewport til html export!!!
+0c16b90
+Når vi anvender touch
+Er det vigtigt at touch-koordinaterne passer med input
+Efter mange problemer fandt jeg frem til at man kan sætte
+I projekt-settings strech mode til viewport!!!!
